@@ -104,7 +104,8 @@ body {
 
 .section-1 {
     height: 100vh;
-    background: url("../img/section1/slide.jpg") no-repeat;
+    background: url("../img/section1/slide.jpg"), url("../img/section1/slide1.jpg"), url("../img/section1/slide2.jpg");
+    background-repeat: repeat;
     background-position: top left;
     background-attachment: scroll;
     background-size: cover;
@@ -421,6 +422,8 @@ body {
     font-family: 'Dancing Script', cursive;
 
     text-align: left;
+    padding: 40px 20px;
+
 }
 
 .section-4 .story-content2 p {
@@ -428,7 +431,6 @@ body {
     color: #000;
     font-family: 'Open sans', sans-serif;
     text-align: left;
-
 
 }
 
@@ -490,7 +492,7 @@ body {
 
 .section-4 .story-content3 h1 {
 
-    color: #de013f;
+    /* color: #de013f; */
     font-family: 'Dancing Script', cursive;
     text-align: left;
 }
